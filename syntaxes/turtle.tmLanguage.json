@@ -11,8 +11,20 @@
             "match": "\\+|-|\\*|/|\\^"
         },
         {
+            "name": "punctuation.definition.parenthesis.turtle",
+            "match": "\\(|\\)"
+        },
+        {
+            "name": "punctuation.definition.brace.turtle",
+            "match": "\\{|\\}"
+        },
+        {
             "name": "keyword.control.turtle",
-            "match": "\\b(color|repeat|proc|call|set|quit|exit)\\b"
+            "match": "\\b(print|repeat|proc|call|set|home|quit|exit)\\b"
+        },
+        {
+            "name": "storage.type.turtle",
+            "match": "\\b(color|up|down|forward|fw|backward|bw|position|pos|right|rt|left|lt|heading|hd)\\b"
         },
         {
             "name": "constant.numeric.turtle",
@@ -23,7 +35,7 @@
             "match": "\\b(red|green|blue|cyan|magenta|yellow|black|gray|white|north|south|east|west)\\b"
         },
         {
-            "name": "string.turtle",
+            "name": "variable.turtle",
             "match": "(\\b[A-Z][A-Z0-9]*\\b|\\b[a-zA-Z_][a-zA-Z0-9_]*\\b)"
         }
     ],

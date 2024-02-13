@@ -63,6 +63,10 @@ To build the `.vsix` package for this extension, follow these steps:
 
 By following these steps, you should be able to build and install the extension into your Visual Studio Code editor.
 
+## Showcase
+
+![Showcase](./Showcase.png)
+
 ## License
 
 This extension is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/), ensuring freedom to use and contribute.
