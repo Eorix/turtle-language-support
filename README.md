@@ -24,7 +24,14 @@ Once installed, simply open a `.turtle` file in Visual Studio Code, and the synt
 
 ## Contributing
 
-Contributions to this extension are welcome and straightforward. You'll find the grammar definition in the "syntaxes/turtle.tmLanguage.json" file. This file utilizes regular expressions to match tokens recognized by Visual Studio Code. Understanding how syntax highlighting works in VS Code involves recognizing that it uses TextMate under the hood to match grammars to predefined tokens. These tokens are then mapped to the current global editor theme, ensuring automatic highlighting. This extension follows this pattern and maps different regexes to various predefined tokens in the "turtle.tmLanguage.json" file. You can refer to the [TextMate language grammars manual](https://macromates.com/manual/en/language_grammars) (section 12.4) for a non-exhaustive list of these tokens.
+Contributions to this extension are welcome and straightforward:
+
+- You'll find the grammar definition in the "syntaxes/turtle.tmLanguage.json" file.
+- This file utilizes regular expressions to match tokens recognized by Visual Studio Code.
+- VS Code uses the plug-in TextMate under the hood to match custom grammars to a list of predefined tokens.
+- These tokens are then mapped to the current global editor theme, ensuring automatic highlighting.
+- This extension follows this pattern and maps different regexes to various predefined tokens in the "turtle.tmLanguage.json" file.
+- You can refer to the [TextMate language grammars manual](https://macromates.com/manual/en/language_grammars) (section 12.4) for a non-exhaustive list of these tokens.
 
 As an example, let's define some keywords for Turtle:
 
@@ -61,7 +68,7 @@ To build the `.vsix` package for this extension, follow these steps:
    - Choose `Install from VSIX...` from the dropdown menu.
    - Select the generated `.vsix` package (`turtle-language-support-1.0.0.vsix`) from your file system and install it.
 
-By following these steps, you should be able to build and install the extension into your Visual Studio Code editor.
+By following these steps, you should be able to build and install the extension into your Visual Studio Code editor. If you do not want to build it yourself, the latest build is available at the root.
 
 ## Showcase
 
