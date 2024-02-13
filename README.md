@@ -1,5 +1,13 @@
 # Turtle Language Support Extension for Visual Studio Code
 
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://en.wikipedia.org/wiki/Software_versioning)
+[![Repository](https://img.shields.io/badge/Repo-100000?&logo=github&logoColor=white)](https://github.com/Eorix/turtle-language-support)
+[![Visual_Studio_Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/)
+[![Windows](https://img.shields.io/badge/Windows-0078D6?&logo=windows&logoColor=white)](https://en.wikipedia.org/wiki/Microsoft_Windows)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white)](https://en.wikipedia.org/wiki/Ubuntu)
+
+---
+
 This extension enriches Visual Studio Code with syntax highlighting capabilities tailored for the Turtle language, enhancing your development experience.
 
 ## Features
