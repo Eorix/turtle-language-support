@@ -38,7 +38,7 @@ As an example, let's define some keywords for Turtle:
 ```json
 {
     "name": "keyword.control.turtle",
-    "match": "\\b(color|repeat|proc|call|set|quit|exit)\\b"
+    "match": "(color|repeat|proc|call|set|quit|exit)"
 }
 ```
 
@@ -47,6 +47,8 @@ Here, "name" references the predefined token. In this case, we define `(color|re
 Finally, "match" is where the regex is defined.
 
 ## Building
+
+***Building is not mandatory as the latest pre-compiled extension is always available at the root, only build if you update the grammar.***
 
 To build the `.vsix` package for this extension, follow these steps:
 
@@ -68,11 +70,17 @@ To build the `.vsix` package for this extension, follow these steps:
    - Choose `Install from VSIX...` from the dropdown menu.
    - Select the generated `.vsix` package (`turtle-language-support-1.0.0.vsix`) from your file system and install it.
 
-By following these steps, you should be able to build and install the extension into your Visual Studio Code editor. If you do not want to build it yourself, the latest build is available at the root.
-
 ## Showcase
 
-![Showcase](./Showcase.png)
+<div style="display: flex; flex-direction: row; align-items: flex-start;">
+    <img src="./showcase/Numbers.png" alt="Numbers" style="width: 10%;">
+    <img src="./showcase/Identifiers.png" alt="Identifiers" style="width: 15%;">
+    <img src="./showcase/Operators.png" alt="Operators" style="width: 15%;">
+    <img src="./showcase/Keywords.png" alt="Keywords" style="width: 10%;">
+    <img src="./showcase/Internal_Functions.png" alt="Internal_Functions" style="width: 15%;">
+    <img src="./showcase/Commands.png" alt="Commands" style="width: 15%;">
+</div>
+
 
 ## License
 
