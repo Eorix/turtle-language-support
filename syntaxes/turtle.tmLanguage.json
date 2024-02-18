@@ -28,7 +28,7 @@
         },
         {
             "name": "constant.language.turtle",
-            "match": "(red|green|blue|cyan|magenta|yellow|black|gray|white|north|south|east|west)"
+            "match": "(red|green|blue|cyan|magenta|yellow|black|gray|white)"
         },
         {
             "name": "entity.name.function",
